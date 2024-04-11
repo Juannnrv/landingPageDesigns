@@ -1,7 +1,69 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2F2F2F;
+
+}
+
+/* Titulos */
+.text{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    justify-content: space-between;
+}
+.titulos{
+    line-height: 1.5;
+}
+
+#uno{
+    color: #FEC3C7;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#dos{
+    color: #9AD7F3;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#tres{
+    color: #6BDFDA;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+/* Parrafo */
+.parrafo{
+    color: #FFFF;
+    justify-content: left;
+    font-size: 24px;
+}
+
+/* Boton */
+a{
+    text-decoration: none;
+    color: #232323;
+    
+}
+.boton{
+    background-color: white;
+    display: flex;
+    width: 10vi;
+    height: 3.5vi;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
