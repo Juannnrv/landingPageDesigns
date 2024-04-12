@@ -1,7 +1,69 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* encabezado */
+h2 {
+    font-family: "Sen", sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: #252525;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+/* párrafo */
+p {
+    font-family: "Sen", sans-serif;
+    text-align: center;
+    color: #252525;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* botón */
+a.button {
+    font-family: "Sen", sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: #252525;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFF;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    row-gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a.button {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+    }
 }
