@@ -5,3 +5,74 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+}
+
+/* Parte de arriba */
+.arriba {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.arriba__content {
+    font-family: "Sen", sans-serif; 
+    margin-top: 85px;
+}
+.arriba__title {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.arriba__description {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.arriba__button {
+    font-size: 18px;
+    background: #252525;
+    color: #FFFF;
+    padding: 12px 32px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.arriba__img {
+    position: relative;
+}
+.arriba__img-left {
+    margin-right: 14vw;
+}
+.arriba__img-right {
+    margin-bottom: -155px;
+}
+
+/* Parte de abajo */
+.abajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 210px;
+}
+.numeros {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Sen", sans-serif; 
+    color: #252525;
+    font-size: 40px;
+    margin-right: 20%;
+    margin-bottom: 15px;
+}
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+}
