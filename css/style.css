@@ -5,3 +5,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    font-family: "Sen", sans-serif; 
+    margin-bottom: 150px;
+}
+.titulo {
+    margin-right: 200px;
+    font-size: 40px;
+    color: #252525;
+}
+.texto {
+    font-size: 25px;
+    color: #252525;
+}
+.boton {
+    font-size: 18px;
+    background: #252525;
+    color: #FFFF;
+    margin-top: 20px;
+    margin-right: 300px;
+    padding: 12px 32px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.img {
+    text-align: center;
+}
