@@ -1,7 +1,70 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    max-height: 926px;
+    display: flex;
+    background: linear-gradient(to bottom, #9C2004, #AB2706);
+    margin: auto;
+}
+
+.izquierda{
+    width: 656px;
+    height: 861.5px;
+}
+#negro{
+    position: absolute;
+    top: 130px;
+    left: 64px;
+}
+#patron1{
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    z-index: -2;
+}
+#patron2{
+    position: absolute;
+    top: 632px;
+    left: 496px;
+    z-index: -2;
+}
+#sol{
+    position: absolute;
+    top: 88px;
+    left: 64px;
+    z-index: -3;
+}
+.derecha {
+    width: 60%;
+    font-family: "Work Sans", sans-serif;
+    padding: 147px 64px 118px 277px;
+}
+.derecha h1{
+    font-size: 88px;
+    color: white;
+    margin-bottom: 40px;
+}
+.derecha p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+}
+.derecha button{
+    width: 231px;
+    height: 82px;
+    font-size: 32px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    background: #E5B94B;
+    color: #080808;
+    border-radius: 36px;
+    text-decoration: none;
 }
