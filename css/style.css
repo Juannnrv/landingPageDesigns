@@ -1,7 +1,93 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    max-height: 933px;
+    display: flex;
+    margin: 65px;
+}
+
+.izquierda {
+    margin-left: 20px;
+}
+.izquierda__img{
+    position: absolute;
+    top: 101.64px;
+    left: 64.75px;
+}
+.izquierda__title {
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.izquierda__description {
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 30px;
+}
+.izquierda__button1 {
+    width: 219px;
+    height: 66px;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #050505;
+    border-radius: 16px;
+    color: #FFFF;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+.izquierda__button2 {
+    width: 254px;
+    height: 66px;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-style: italic;
+    background: white;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.izquierda__nav {
+    display: flex;
+    width: 642px;
+    height: 118px;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #111111;
+    border-radius: 24px;
+    align-items: center;
+    margin-left: -20px;
+    padding: 24px 24px 24px 24px;
+}
+.izquierda__nav img{
+    width: 24px;
+    height: 24px;
+}
+.izquierda__nav p{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+}
+.derecha__reloj {
+    position: absolute;
+    top: 152.24px;
+    left: 861.76px;
+}
+.derecha__small{
+    position: absolute;
+    top: 364.19px;
+    left: 1066.31px;
+}
+.derecha__big{
+    position: absolute;
+    top: 93px;
+    left: 809px;
 }
