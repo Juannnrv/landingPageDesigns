@@ -12,7 +12,6 @@ body{
     max-width: 1140px;
     margin: 60px;
 }
-
 .section__header {
     margin-bottom: 65px;
     font-family: "Lato", sans-serif;
@@ -38,36 +37,13 @@ body{
     opacity: 80%;
     margin-bottom: 20px;
 }
-.texto1 {
-    position: absolute;
-    bottom: 79px;
-    width: 317px;
-    height: 147px;
-    padding: 24px 80px 24px 24px;
+.imagenes{
+    position: relative;
 }
-.texto2 {
+.textos{
     position: absolute;
-    bottom: 79px;
-    left: 395px;
-    width: 317px;
-    height: 147px;
-    padding: 24px 80px 24px 24px;
-}
-.texto3 {
-    position: absolute;
-    bottom: 79px;
-    right: 389px;
-    width: 317px;
-    height: 147px;
-    padding: 24px 80px 24px 24px;
-}
-.texto4 {
-    position: absolute;
-    bottom: 79px;
-    right: 54px;
-    width: 317px;
-    height: 147px;
-    padding: 24px 80px 24px 24px;
+    bottom: 36px;
+    right: 90px;
 }
 #titulo{
     font-size: 24px;
