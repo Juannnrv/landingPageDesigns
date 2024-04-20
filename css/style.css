@@ -5,3 +5,106 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    position: relative;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+}
+
+/* Imagenes */
+.decor1 {
+    position: absolute;
+    left: 142px;
+    top: 674px;
+}
+.decor2 {
+    position: absolute;
+    left: 596px;
+    top: 388px;
+}
+.decor3 {
+    position: absolute;
+    left: 1095px;
+    top: 541px;
+}
+.decor4 {
+    position: absolute;
+    left: 498px;
+    top: 91px;
+}
+.img1 {
+    position: absolute;
+    left: 383px;
+    top: 524px;
+    z-index: -1;
+}
+.img2 {
+    position: absolute;
+    left: 723px;
+    top: 282px;
+    z-index: -1;
+}
+.img3 {
+    position: absolute;
+    left: 1063px;
+    top: 67px;
+}
+
+
+/* Contenido */
+.main {
+    padding: 64px;
+}
+.content {
+    color: #252525;
+}
+.text {
+    max-width: 637px;
+    max-height: 64px;
+}
+.text h1{
+    max-width: 560px;
+    max-height: 264px;
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+.text p{
+    max-width: 519px;
+    max-height: 99px;
+    font-size: 24px;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+.text button{
+    width: 182px;
+    height: 66px;
+    background: #252525;
+    border-radius: 36px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Card-description */
+.card {
+    /* background: red; */
+    max-width: 668px;
+    max-height: 122px;
+    padding: 16px 24px 16px 24px;
+    position: absolute;
+    left: 708px;
+    top: 838px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #252525;
+}
+.card p{
+    width: 516px;
+    height: 90px;
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    opacity: 80%;
+}
