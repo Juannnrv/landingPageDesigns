@@ -1,7 +1,102 @@
 @import url(variables.css);
-
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    max-width: 1440px;
+    height: 1024px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-image: url(../storage/img/Gradient\ bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Imagenes */
+.starbig {
+    position: absolute;
+    top: 237px;
+    left: 311px;
+}
+.starsmall {
+    position: absolute;
+    top: 535px;
+    left: 921px;
+}
+.explosion {
+    position: absolute;
+    top: 193px;
+    left: 110px;
+}
+.sun {
+    position: absolute;
+    top: 647px;
+    left: 1135px;
+}
+
+
+.main{
+    height: 100%;
+    display: flex;
+    padding: 64px;
+}
+
+.izquierda{
+    width: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 0 70px;
+    gap: 42px;
+}
+
+.centro h1 {
+    text-align: center;
+    font-size: 112px;
+}
+.centro p {
+    text-align: center;
+    font-size: 24px;
+}
+.centro button {
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    background: #252525;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+.derecha{
+    width: 434px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.izquierda img, .derecha img {
+    width: 412px;
+    height: 528px;
+}
+
+.text__info h2{
+    height: 32px;
+    color: hsla(0, 0%, 15%, 0.45);
+    font-size: 24px;
+    font-weight: bold;
+}
+.text__info p{
+    height: 64px;
+    color: hsla(0, 0%, 15%, 0.80);
+    font-size: 24px;
+    font-weight: 100;
 }
