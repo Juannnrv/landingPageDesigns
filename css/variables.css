@@ -1,3 +1,13 @@
 :root{
     --color-prymary: #ff0000;
 }
+
+@font-face {
+    font-family: 'Times Regular';
+    src: url(/storage/font/Typography\ Times\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Times Bold';
+    src: url(/storage/font/Typography\ Times\ Bold.ttf);
+}
