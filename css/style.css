@@ -13,21 +13,21 @@ body{
     max-width: 1440px;
     max-height: 1040px;
     margin: auto;
+    position: relative;
 }
 
 .main {
     margin: 88px 64px 64px 64px;
-    position: relative;
 }
 .star1{
     position: absolute;
     left: 1076px;
-    top: 423px;
+    top: 339px;
 }
 .star2{
     position: absolute;
     left: 396px;
-    top: 163px;
+    top: 69px;
 }
 
 .main__article {
