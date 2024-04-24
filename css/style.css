@@ -5,3 +5,82 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    max-width: 1440px;
+    max-height: 1475px;
+    margin: auto;
+    background: #F2F2F2;
+    /* background: green; */
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px 63px 61px 64px;
+    /* background: red; */
+}
+.content {
+    width: 627px;
+    height: 297px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #252525;
+}
+.content h1{
+    font-size: 56px;
+}
+.content p{
+    font-size: 24px;
+    opacity: 80%;
+    font-family: "Avenir Heavy";
+}
+.content button{
+    width: 182px;
+    height: 66px;
+    background: #252525;
+    border: #252525;
+    border-radius: 36px;
+    font-size: 24px;
+    color: white;
+}
+.list {
+    background: white;
+    border-radius: 48px;
+    padding: 64px 40px;
+    width: 1048px;
+    height: 191px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.list__item h2{
+    font-size: 24px;
+}
+
+.list__item p{
+    width: 176px;
+    height: 50px;
+    font-size: 18px;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.middle{
+    background: blue;
+    width: 1312px;
+    height: 526px;
+    margin: -88px 0px 40px 0px;
+    /* padding: 0 63px 0 64px; */
+    z-index: -2;
+    border-radius: 24px;
+}
